@@ -286,7 +286,7 @@ for (let index = 0; index < 10; index++) {
         `)
     basic.pause(1000)
 }
-basic.showString("15 Min.")
+basic.showString("10 Min.")
 basic.showIcon(IconNames.StickFigure)
 basic.pause(1000)
 basic.showLeds(`
@@ -321,6 +321,93 @@ basic.showLeds(`
     . . . . .
     `)
 basic.pause(1000)
+for (let index = 0; index < 10; index++) {
+    basic.showIcon(IconNames.Heart)
+    basic.pause(15000)
+    basic.showLeds(`
+        # # # # .
+        # . . . .
+        # # # # .
+        . . . # .
+        # # # # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        # . . # .
+        # . . # .
+        # # # # .
+        . . . # .
+        . . . # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        # # # # .
+        . . . # .
+        # # # # .
+        . . . # .
+        # # # # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        # # # # .
+        . . . # .
+        # # # # .
+        # . . . .
+        # # # # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        . . # . .
+        . # # . .
+        . . # . .
+        . . # . .
+        . # # # .
+        `)
+    basic.pause(1000)
+    basic.showIcon(IconNames.StickFigure)
+    basic.pause(5000)
+    basic.showLeds(`
+        # # # # .
+        # . . . .
+        # # # # .
+        . . . # .
+        # # # # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        # . . # .
+        # . . # .
+        # # # # .
+        . . . # .
+        . . . # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        # # # # .
+        . . . # .
+        # # # # .
+        . . . # .
+        # # # # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        # # # # .
+        . . . # .
+        # # # # .
+        # . . . .
+        # # # # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        . . # . .
+        . # # . .
+        . . # . .
+        . . # . .
+        . # # # .
+        `)
+    basic.pause(1000)
+}
+basic.showString("15 min.")
 for (let index = 0; index < 10; index++) {
     basic.showIcon(IconNames.Heart)
     basic.pause(15000)
